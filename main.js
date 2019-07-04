@@ -157,8 +157,12 @@
          'num41':num41,
         },
     }).done(function (data) {
-      window.location.reload();
       window.location.href = 'thankyou.html'
+      setTimeout(function(){
+        window.location.reload();
+        
+      },500)
+
     });
 
     }

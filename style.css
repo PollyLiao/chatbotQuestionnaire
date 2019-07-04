@@ -57,6 +57,8 @@ button{
   border:none;
   padding:10px;
   transition: all .3s ease;
+  margin-bottom: 100px;
+  display:inline-block;
 }
 button:hover{
   background: #BBB;
