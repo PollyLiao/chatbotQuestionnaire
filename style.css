@@ -1,0 +1,75 @@
+body{
+  background-image: url('man-chatting-with-chat-bot_19361-25.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom; 
+}
+.wrap{
+  width: 900px;
+  height: 100%;
+  margin:auto;
+  text-align: center;
+  padding:5% 0;
+}
+.topSide{
+  width:100%;
+  font-size: 0;;
+}
+.topSide label, .topSide input{
+  font-size: 1rem;;
+  display: inline-block;
+  vertical-align: middle;
+}
+.topSide label{
+  width:18%;
+}
+.topSide input{
+  width:82%;
+  padding:5px;
+  border:1px solid #CCC;
+}
+section:not(:last-child){
+  margin-bottom: 20px;
+}
+section h1{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+table{
+  width:100%;
+  text-align: center;
+  border:1px solid #CCC;
+  background: #FAFAFA;  
+}
+table thead{
+  border-bottom: 1px solid #CCC;
+}
+table td{
+  font-size: .875rem;
+  padding:15px 5px;
+  line-height: 150%;
+}
+
+button{
+  color:#FFF;
+  width:100%;
+  background:#CCC;
+  border:none;
+  padding:10px;
+  transition: all .3s ease;
+}
+button:hover{
+  background: #BBB;
+}
+
+.thankyou{
+  font-size: 3rem;
+  width:500px;
+  height: 200px;
+  line-height: 200px;
+  margin:auto;
+  text-align: center;
+  top:50%;
+  transform: translateY(-50%);
+  position: relative; 
+}
