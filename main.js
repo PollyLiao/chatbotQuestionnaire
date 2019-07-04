@@ -87,7 +87,9 @@
     })
     
     var userName = $('#userName').val()
-    if(!num11){
+    if(!userName){
+      alert('填個名字吧!')
+    }else if(!num11){
       alert('第一部分的第一題沒填到')
     }else if(!num12){
       alert('第一部分的第二題沒填到')
@@ -127,8 +129,6 @@
       alert('第三部分的第六題沒填到')
     }else if(!num41){
       alert('第四部分的第一題沒填到')
-    }else if(!userName){
-      alert('填個名字吧!')
     }else{
       $.ajax({
         type: 'GET',
