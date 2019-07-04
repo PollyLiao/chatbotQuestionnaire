@@ -75,3 +75,9 @@ button:hover{
   transform: translateY(-50%);
   position: relative; 
 }
+
+a{
+  color:blue;
+  display: inline-block;
+  margin-bottom: 10px;
+}
