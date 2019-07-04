@@ -81,3 +81,55 @@ a{
   display: inline-block;
   margin-bottom: 10px;
 }
+.xx{
+  color: #FFF;
+  width:30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  right:-15px;
+  top:-15px;
+  cursor: pointer;
+}
+
+
+.lightbox{
+  width:100%;
+  height: 100%;
+  background:rgba(255,255,255,.8);
+  position: fixed;
+  z-index: 9;
+  left:0;
+  top:0; 
+  display: none;
+}
+.lightbox .inner{
+  width:500px;
+  height: 500px;
+  background: #FAFAFA;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+
+  border:5px solid #CCC;
+}
+
+.lightTable{
+  text-align: left;
+}
+.lightTable thead{
+  text-align: center;
+}
+.lightTable tbody tr:not(:last-child){
+  border-bottom: 1px solid #CCC;
+}
+.lightTable tbody td{
+  border-right:1px solid #CCC;
+  
+}
