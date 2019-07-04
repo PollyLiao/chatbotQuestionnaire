@@ -86,6 +86,7 @@
        num41 = $(this).val()
     })
     
+    var userName = $('#userName').val()
     if(!num11){
       alert('第一部分的第一題沒填到')
     }else if(!num12){
@@ -126,12 +127,14 @@
       alert('第三部分的第六題沒填到')
     }else if(!num41){
       alert('第四部分的第一題沒填到')
+    }else if(!userName){
+      alert('填個名字吧!')
     }else{
       $.ajax({
         type: 'GET',
         url: 'https://script.google.com/macros/s/AKfycbwP_Zki-msuxhepA4_WNemHKlYzlvdNu5Mj_k40u80HvW203uuh/exec',
         data: {
-         'name':$('#userName').val(),
+         'name':userName,
          'num11':num11,
          'num12':num12,
          'num13':num13,
